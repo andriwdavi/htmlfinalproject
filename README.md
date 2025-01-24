@@ -1,5 +1,5 @@
-# 
-Projeto final do 1º ano de INFOWEB 1M
+# Projeto final do 1º ano de INFOWEB 1M
+
 ALUNOS: Andriw Davi Gonçalves de Barros & João Augusto Cruz de Medeiros 
 MENTORA: Danielle Gomes de Freitas Medeiros
 
