@@ -2,6 +2,7 @@
     background-color: black;
     padding: 0;
     margin: 0;
+    font-family: Eras Medium ITC;
 }
 
 h1{
@@ -9,7 +10,7 @@ h1{
     margin-left: 20%;
     text-align: center;
 }
-
+    
 header{
     color: white;
 }
@@ -62,13 +63,13 @@ li{
     list-style-type: none;
 }
 
-li .menua:hover{
+li .menuitens:hover{
     background-color: rgba(133, 133, 133, 0.5);
     transition: background-color 0.3s ease, padding 0.3s ease;
     background-size: 50px;
 }
 
-.menua{
+.menuitens{
     text-decoration: none;
     color: white;
     background-color: transparent;
