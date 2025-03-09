@@ -33,7 +33,7 @@ header{
 
 .login{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     margin-right: 5em;
     width: 20%;
     gap: 50px;
@@ -87,17 +87,24 @@ footer{
 }
 
 .footerlogo{
-    margin-top: 10px;
+    padding:10px 0px 0px 0px;
     border-right: 1px solid white;
+}
+
+.footer p{
+    padding: 70px 0px 0px 0px;
 }
 
 .footer{
     display: flex;
+    flex: 1 1 0;
 }
 
 .footerlinks{
     display: flex;
     justify-content: right;
+    padding: 25px 0px 0px 0px;
+    align-items: center;
 }
 
 form {
@@ -150,17 +157,68 @@ form button {
 form button:hover {
     background-color: rgba(206, 175, 0, 0.336);
 }
-
-figure{
-    text-align: center;
-    margin-left: 10px;
-    margin-top: 20px;
-}
-
-.aboutmain p{
-    margin-left: 350px;
+.aboutmain img{
+    max-width:1000px;
+    max-height:1500px;
     width: 50%;
-    font-size: 17px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 2em;
+}
+.aboutmain h1{
+    color: #fff;
+    text-align: center;
+    height: 50px;
+}
+.container p{
+    height: 100px;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+    font-size: large;
+}
+.indexmain p{
+    text-align: center;
+    font-size: large;
+    padding: 0px 200px 0px 200px;
+}
+.indexmain h1{
+    color: #fff;
+}
+.indexmain img{
+    max-width:1000px;
+    max-height:1500px;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 2em;
+}
+.gamemain h1{
+    color: #fff;
+    text-align: center;
+    height: 50px;
+}
+.gamemain h2{
+    color: #fff;
+    text-align: center;
+    height: 50px;
+}
+.gamemain p{
+    height: 100px;
+    font-size: large;
+    padding: 0px 200px 0px 200px ;
+}
+.gamemain img{
+    max-width:1000px;
+    max-height:1500px;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 2em;
+}
+.gamediv{
     text-align: center;
 }
 
