@@ -34,7 +34,7 @@ header{
 .login{
     display: flex;
     justify-content: center;
-    margin-right: 5em;
+    margin-right: 500em;
     width: 20%;
     gap: 50px;
 }
@@ -114,6 +114,14 @@ form {
     box-shadow: 0 0 10px rgb(255, 255, 255);
     width: 350px;
 }
+.signmain{
+    justify-content: center;
+    display: flex;
+}
+.signupmain{
+    justify-content: center;
+    display: flex;
+}
 
 form h2 {
     text-align: center;
@@ -127,7 +135,6 @@ form label {
     display: block;
     margin: 0.8rem 0 0.3rem;
     font-weight: bold;
-    text-align: left;
     color: rgb(255, 255, 255);
     background-color: transparent;
 }
@@ -221,4 +228,12 @@ form button:hover {
 .gamediv{
     text-align: center;
 }
-
+.communitymain h1{
+    color: #fff;
+    height: 70px;
+}
+.communitymain p{
+    height: 150px;
+    font-size: large;
+    padding: 0px 200px 0px 200px ;
+}
