@@ -233,7 +233,16 @@ form button:hover {
     height: 70px;
 }
 .communitymain p{
-    height: 150px;
+    height: 200px;
     font-size: large;
     padding: 0px 200px 0px 200px ;
+}
+.communitymain img{
+    max-width:1000px;
+    max-height:1500px;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 2em;
 }
